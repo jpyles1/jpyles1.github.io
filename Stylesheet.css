@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+body { background-color: black;
+	color: gold;
+	font-family: "Times New Roman", Times, serif;
+}
+nav { background-color: gray;
+	list-style-type: none;
+	height: 500px;
+	text-align: center;
+	padding: 20px 0;
+	width: 100%;
+	margin: auto;
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center; 
+}
+nav ul { list-style: none;
+	justify-content: space-around;
+	text-align: center;
+	overflow: hidden;
+}
+.row {
+  display: flex;
+	column-gap: 40px;
+}
+.column left { float: left;
+		margin: 0 1.5%;
+		width: 60%;
+	
+}
+.column right { float: right;
+		margin: 0 1.5%
+		width: 30%;
+}
+}
+a:link { color: gold;
+}
+a:hover { color: white;
+}
+a:visited { color: red;
+}
